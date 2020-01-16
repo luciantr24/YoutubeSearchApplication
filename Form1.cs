@@ -42,14 +42,19 @@ namespace YoutubeSearchApplication
         }
        
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)  {}
+
+        private void textSearch_TextChanged(object sender, EventArgs e)  {}
+
+
+        private void showMessage()
         {
+            string message = "Hello from YouTube Application";
 
         }
 
-        private void textSearch_TextChanged(object sender, EventArgs e)
-        {
+     
 
-        }
+
     }
 }
